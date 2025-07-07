@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de-ch">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Syntax - Semantik - Struktur</title>
+</head>
+
+<body>
+    <h1>Aufgabe 4</h1>
+    <h2>Geordnete Liste</h2>
+    <ol>
+        <li>Das ist das erste Element</li>
+        <li>Das ist das zweite Element</li>
+        <li>Das ist das dritte Element</li>
+    </ol>
+    <hr>
+    <h2>Ungeordnete Liste</h2>
+    <ul>
+        <li>Das ist das erste Element</li>
+        <li>Das ist das zweite Element</li>
+        <li>Das ist das dritte Element</li>
+    </ul>
+    <hr>
+    <h2>Gemischte Listen</h2>
+    <ol>
+        <li>Erstes Element</li>
+        <li>Zweites Element</li>
+        <li>Innere Liste
+            <ul>
+                <li>Erstes Sub-Element</li>
+                <li>Erstes Sub-Element</li>
+                <li>Noch eine innere Liste
+                    <!-- 
+                        Mit Attributen wie start oder type kann 
+                        ein Tag "konfiguriert" werden.
+                    -->
+                    <ol start="4" type="I">
+                        <li>Erstes Sub-Sub-Element</li>
+                        <li>Zweites Sub-Sub-Element</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+    </ol>
+    <hr>
+    <h2>Definitions Liste</h2>
+    <dl>
+        <dt>Zu beschreibender Ausdruck</dt>
+        <dd>Beschreibung des Ausdrucks</dd>
+        <dt>Milch</dt>
+        <dd>Eine weisse, kühle Flüssigkeit</dd>
+    </dl>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de-ch">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Syntax - Semantik - Struktur</title>
+</head>
+<!-- Reservierte Spezialzeichen von HTML wie < oder > müssen kodiert (Entity Code)
+     werden, damit diese korrekt angezeigt werden
+     Eine Liste ist zu finden unter https://www.whatsmyip.org/html-characters/
+-->
+
+<body>
+    <h1>Aufgabe 3</h1>
+    <h2>Fett gedruckter Text mit &lt;bold&gt;</h2>
+    <p>
+        In diesem Text hat es <b>fett gedruckten Text</b>, der unschwer zu
+        erkennen ist
+    </p>
+    <hr>
+    <h2>Wichtige Informationen mit &lt;strong&gt;</h2>
+    <p>
+        Wichtiger Text oder wichtige Informationen <strong>können mit semantisch</strong>
+        speziell ausgezeichnet werden. Auch wenn visuell kein Unterschied zum fett
+        gedruckten Text zu erkennen ist, <strong>hat er doch eine andere semantische
+            Bedeutung</strong>.
+    </p>
+    <hr>
+    <h2>Eine ganze Reihe weiterer, semantisch bedeutenter Tags</h2>
+    <p>
+        <!-- Ein erzwungener Zeilenumbruch erreicht man mit dem TAG <br> -->
+        Text kann <i>schräg (italic)</i> ausgezeichnet werden.<br>
+        Text kann <em>betont (emphasized) </em> ausgezeichnet werden.<br>
+        Text kann <mark>markiert (marked)</mark> ausgezeichnet werden.<br>
+        Text kann <small>kleiner (small)</small> ausgezeichnet werden.<br>
+        Text kann <del>durchgestrichen (deleted)</del> ausgezeichnet werden.<br>
+        Text kann <ins>eingefügt (inserted)</ins> ausgezeichnet werden.<br>
+        Text kann <sub>tiefgestellt (subscript)</sub> ausgezeichnet werden.<br>
+        Text kann <sup>hochgestellt (superscript)</sup> ausgezeichnet werden.<br>
+        Code kann <code>int c=1;</code> ausgezeichnet werden.<br>
+        Text kann formatiert ausgezeichnet werden:
+    </p>
+    <hr>
+    <h2>Spezielle TAGs</h2>
+    <p>Text kann formatiert ausgegeben werden: </p>
+    <!-- 
+        <pre> lässt den Text genau so ausgeben, wie er geschrieben
+        wurde, also mit allen Abständen, Tabulatoren usw.
+        Die Schrift wird auf eine nicht-proportionale Schriftart
+        gewechselt, damit jedes Zeichen genau viel Breite erhält.
+        Dies ist gerade im Umgang mit Code sehr wichtig.
+    -->
+    <pre>
+                ....
+                   Leerzeichen werden übernommen
+                        Tabulatoren werden übernommen
+        
+        public class Demo
+        {
+            public int Value { get; private set; }
+            public Demo(int value)
+            {
+                Value = value;
+            }
+        }
+    </pre>
+    <hr>
+</body>
+
+</html>
