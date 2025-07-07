@@ -1,0 +1,63 @@
+ @import url(https://fonts.googleapis.com/css?family=Yantramanav:400,300,100);
+   
+   body {
+    font-family: Yantramanav, san-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.4em;
+    color: #666666;
+   }
+   
+   h1, h2 {
+    font-size: 2.0em;
+    font-weight: 400;
+    color: #c12e2a;
+    text-shadow:2px 2px rgba(120,120,120,0.4);
+   }
+   
+   h2 {
+    font-size: 1.5em;
+   }
+   
+   ul {
+    background-color: rgba(17,88,142, 0.9);
+    color: white;
+   }
+   
+   ul a {
+    font-size: 1.1em;
+   }
+   
+   a:link {
+    color:rgb(193, 46, 42);
+    text-decoration: none;
+   }
+   
+   a:visited {
+    color:rgb(140, 140, 140);
+   }
+   
+   a:hover {
+    color: rgb(255,255,255);
+    background-color: rgba(116, 16, 14, 0.8);
+   }
+   
+   
+   ul a:link {
+    color: rgb(201, 203, 65);
+    text-decoration: none;
+   }
+   
+   ul a:visited {
+    color: rgb(211, 211, 211);
+   }
+   
+   ul a:hover {
+    color: rgb(255,255,255);
+    background: transparent;
+   }
+   
+   #source {
+    background-color: rgb(201, 203, 65);
+    color: #666666;
+   }

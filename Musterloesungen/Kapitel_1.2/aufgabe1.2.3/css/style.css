@@ -1,0 +1,113 @@
+ @import url(https://fonts.googleapis.com/css?family=Yantramanav:400,300,100);
+   
+   body {
+    font-family: Yantramanav, san-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.4em;
+    color: #666666;
+   }
+   
+   h1, h2 {
+    font-size: 2.0em;
+    font-weight: 400;
+    color: #c12e2a;
+    text-shadow:2px 2px rgba(120,120,120,0.4);
+   }
+   
+   h2 {
+    font-size: 1.5em;
+   }
+   
+   ul {
+    background-color: rgba(17,88,142, 0.9);
+    color: white;
+   }
+   
+   ul a {
+    font-size: 1.1em;
+   }
+   
+   a:link {
+    color:rgb(193, 46, 42);
+    text-decoration: none;
+   }
+   
+   a:visited {
+    color:rgb(140, 140, 140);
+   }
+   
+   a:hover {
+    color: rgb(255,255,255);
+    background-color: rgba(116, 16, 14, 0.8);
+   }
+   
+   
+   ul a:link {
+    color: rgb(201, 203, 65);
+    text-decoration: none;
+   }
+   
+   ul a:visited {
+    color: rgb(211, 211, 211);
+   }
+   
+   ul a:hover {
+    color: rgb(255,255,255);
+    background: transparent;
+   }
+   
+   #source {
+    background-color: rgb(201, 203, 65);
+    color: #666666;
+   }
+   
+   /***************************************************************
+   Hier kommen spezielle Eigenschaften dazu ab Aufgabe A7-1-3 dazu
+   ****************************************************************/
+   
+   /* Aufgabe a) mit !imortant auch Aufgabe b) */
+   h1+p {
+    background-color:red !important;
+   }
+   
+   /* Aufgabe b) */
+   h1~p {
+    background-color: green;
+   }
+   
+   /* Aufgabe e), die Reihenfolge ist wichtig */
+   li:nth-child(odd) {
+    background-color: orange;
+   }
+   
+   /* Aufgabe d) */
+   li:first-child {
+    background-color: yellow;
+   }
+   /* Aufgabe c) */
+    li:last-child {
+    background-color: yellow;
+   }
+   
+   /* Aufgabe f) */
+   ul a:hover::before {
+    content: ">>";
+   }
+   
+   /* Aufgabe d) */
+   p#source>a {
+    font-weight: bolder;
+    letter-spacing: 0.5em;
+   }
+   
+   /* Aufgabe h) 
+   Ausser das <p>-Element mit der id="source" erhalten alle Elemente,
+   welche ein id-Attribut besitzen, den entsprechenden Hintergrund.
+   Das <p>-Element mit id="source daher nicht", da in Zeile 60 bereits
+   für das Element ein ID-Selektor angelegt wurde. Gemäss Spezifität ist
+   diese Eigenschaft stärker, als die untenstehende.
+   */
+   *[id] {
+    background-color: violet;
+   }
