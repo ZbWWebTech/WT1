@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aufgabe 1.3.1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>Aufgabe 1.3.1</h1>
+    <h2>Kontaktformular</h2>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Persönliche Informationen</legend>
+            <h3>Kontaktinformationen</h3>
+            <p>
+                <label for="firstname">
+                    Vorname:
+                    <input type="text" id="firstname" name="firstname" placeholder="Ihr Vorname" required> <sup>*</sup>
+                </label>
+
+                <label for="lastname">
+                    Nachname:
+                    <input type="text" id="lastname" name="lastname" placeholder="Ihr Nachname" required> <sup>*</sup>
+                </label>
+            </p>
+
+            <p>
+                <label for="strasse">
+                    Name der Strasse:
+                    <input type="text" id="strasse" name="strasse" placeholder="Ihr Strassenname">
+                </label>
+
+                <label for="hausnummer">
+                    Nummer des Hauses:
+                    <input type="text" id="hausnummer" name="hausnummer" placeholder="Ihre Hausnummer">
+                </label>
+            </p>
+
+            <p>
+                <label for="postleitzahl">
+                    Postleitzahl:
+                    <input type="number" id="postleitzahl" name="postleitzahl" placeholder="Postleitzahl">
+                </label>
+
+                <label for="wohnort">
+                    Postleitzahl:
+                    <input type="number" id="wohnort" name="wohnort" placeholder="Ihr Wohnort">
+                </label>
+
+                <label for="land">
+                    Land:
+                    <select id="land" size="1">
+                        <option value="de">Deutschland</option>
+                        <option value="fr">Frankreich</option>
+                        <option value="au">Österreich</option>
+                        <option value="ch" selected>Schweiz</option>
+                    </select>
+                </label>
+            </p>
+
+            <p>
+                <label for="telefonnummer">
+                    Telefonnummer (privat):
+                    <input type="tel" id="telefonnummer" name="telefonnummer" placeholder="Ihre Telefonnnumer" required>
+                    <sup>*</sup>
+                </label>
+
+                <label for="mobilnummer">
+                    Mobiltelefonnummer (privat):
+                    <input type="tel" id="mobilnummer" name="mobilnummer" placeholder="Ihre Mobiltelefonnummer"
+                        required> <sup>*</sup>
+                </label>
+            </p>
+            <p>
+                <label for="mail">
+                    E-Mail:
+                    <input type="email" id="mail" name="mail" placeholder="Ihre E-Mail Adresse" required> <sup>*</sup>
+                </label>
+            </p>
+
+            <h3>Angaben zu Ihrer Person</h3>
+            <p>
+                <label for="geburtsdatum">
+                    Geburtsdatum:
+                    <input type="date" id="geburtsdatum" name="geburtsdatum">
+                </label>
+            </p>
+            <p>
+                Geschlecht:<br>
+                <label for="male">
+                    Männlich
+                    <input type="radio" id="male" value="männlich" name="geschlecht">
+                </label>
+                <label for="female">
+                    Weiblich
+                    <input type="radio" id="female" value="weiblich" name="geschlecht">
+                </label>
+            </p>
+            <p>
+                Zivilstand: <br>
+                <label for="verheiratet_ja">
+                    Verheiratet
+                    <input type="radio" id="verheiratet_ja" value="ja" name="zivilstand">
+                </label>
+                <label for="verheiratet_nein">
+                    Ledig
+                    <input type="radio" id="verheiratet_nein" value="nein" name="zivilstand">
+                </label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Weitere Informationen</legend>
+            <h3>Ihr Kompentenzportfolio</h3>
+            <table>
+                <caption>Kenntnisse im Bereich Informatik</caption>
+                <tr>
+                    <th></th>
+                    <th scope="row">Keine </th>
+                    <th scope="row">Beginner </th>
+                    <th scope="row">Fortgeschritten</th>
+                    <th scope="row">Experte</th>
+                    <th scope="row">Technologie</th>
+                </tr>
+                <tr>
+                    <th scope="col">Netzwerktechnik</th>
+                    <td><label><input type="radio" value="0" name="nwt"></label></td>
+                    <td><label><input type="radio" value="1" name="nwt"></label></td>
+                    <td><label><input type="radio" value="2" name="nwt"></label></td>
+                    <td><label><input type="radio" value="3" name="nwt"></label></td>
+                    <td>
+                        <label>
+                            <select name="nwt_tech" size="1">
+                                <option value="1">Linux</option>
+                                <option value="2">Windows</option>
+                                <option value="3">Cisco</option>
+                            </select>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col">Programmierung</th>
+                    <td><label><input type="radio" value="0" name="prg"></label></td>
+                    <td><label><input type="radio" value="1" name="prg"></label></td>
+                    <td><label><input type="radio" value="2" name="prg"></label></td>
+                    <td><label><input type="radio" value="3" name="prg"></label></td>
+                    <td>
+                        <label>
+                            <select name="prg_tech" size="1">
+                                <option value="1">Java</option>
+                                <option value="2">C# .Net</option>
+                                <option value="3">Python</option>
+                            </select>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col">Datenbanken</th>
+                    <td><label><input type="radio" value="0" name="dbs"></label></td>
+                    <td><label><input type="radio" value="1" name="dbs"></label></td>
+                    <td><label><input type="radio" value="2" name="dbs"></label></td>
+                    <td><label><input type="radio" value="3" name="dbs"></label></td>
+                    <td>
+                        <label>
+                            <select name="prg_dbs" size="1">
+                                <option value="1">Microsoft SQL-Server</option>
+                                <option value="2">MySQL</option>
+                                <option value="3">Mongo-DB</option>
+                            </select>
+                        </label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th scope="col">Webtechnologien</th>
+                    <td><label><input type="radio" value="0" name="wbt"></label></td>
+                    <td><label><input type="radio" value="1" name="wbt"></label></td>
+                    <td><label><input type="radio" value="2" name="wbt"></label></td>
+                    <td><label><input type="radio" value="3" name="wbt"></label></td>
+                    <td>
+                        <label>
+                            <select name="prg_wbt" size="1">
+                                <option value="1">Frontend (HTML, CSS. JS)</option>
+                                <option value="2">Backend (PHP, JAVA, .NET)</option>
+                            </select>
+                        </label>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <p>
+            <button type="submit"><strong>Daten absenden</strong></button>
+            <button type="reset">Formular löschen</button>
+        </p>
+    </form>
+</body>
+
+</html>
