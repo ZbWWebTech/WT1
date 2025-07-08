@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Aufgabe 7-1-4</title>
+    <meta charset="utf-8">
+    <style>
+        li a {
+            color: blue;
+        }
+
+        #body #article02 a:link {
+            color: red;
+        }
+
+        #body #article02 li>a:link {
+            color: orange;
+        }
+
+        #article02 a {
+            color: green;
+        }
+
+        .center {
+            color: violet;
+        }
+
+        p.center {
+            color: springgreen;
+        }
+
+        p>span.important {
+            color: tomato;
+        }
+
+        span.important {
+            color: maroon;
+        }
+
+        #wrapper>#body>#article03 span {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1>Title</h1>
+            <p class="center"></p>
+        </div>
+        <div id="body">
+            <h2>Theme</h2>
+            <p id="article01" class="center">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                voluptua. <span class="important">At vero eos et accusam</span>et
+                justo duo dolores et ea rebum. Stet clita
+                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invid
+            </p>
+            <ul id="article02" class="center focus">
+                <li><a href="">Product 1</a></li>
+                <li><a href="">Product 2</a></li>
+                <li><a href="">Product 3</a></li>
+                <li><a class="active" href="">Product 4</a></li>
+            </ul>
+            <p id="article03" class="center">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit ame
+                .Lorem ipsum dolor sit amet, <span class="important">consetetur sadipscing
+                    elitr, sed diam nonumy </span> eirmod tempor invid
+            </p>
+        </div> <!-- Ende body -->
+        <div id="footer">
+        </div> <!-- Ende footer -->
+    </div> <!-- Ende wrapper -->
+</body>
+
+</html>
