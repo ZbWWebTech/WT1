@@ -1,0 +1,10 @@
+.custom-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.custom-link:hover,
+.custom-link:focus {
+  text-decoration: underline;
+  color: #0056b3;
+}
