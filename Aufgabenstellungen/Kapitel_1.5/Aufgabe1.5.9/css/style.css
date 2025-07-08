@@ -1,0 +1,13 @@
+/*
+Dieses CSS gestaltet ein Formular mit einem hellgrauen Hintergrund, 
+abgerundeten Ecken und einem großzügigen Innenabstand. Beschriftungen 
+werden blockweise angezeigt und erhalten oben einen Abstand, um die 
+Elemente zu trennen. Text- und E-Mail-Eingabefelder sollen sich über 
+die gesamte Breite erstrecken, haben jedoch einen fehlenden Doppelpunkt 
+bei der Breitenangabe, was die Regel ungültig macht. Diese Felder 
+erhalten zudem einen kleinen Innenabstand und Abstand nach oben. 
+Der Button wird blockweise dargestellt, dunkelblau eingefärbt, mit 
+weißem Text versehen, gepolstert, abgerundet und ohne Rahmen gezeigt. 
+Beim Überfahren mit der Maus ändert sich seine Farbe zu einem noch 
+dunkleren Blauton.
+*/

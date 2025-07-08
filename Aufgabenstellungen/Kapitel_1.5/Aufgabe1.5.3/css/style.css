@@ -1,0 +1,12 @@
+/*
+Dieses CSS legt das Erscheinungsbild von Elementen mit der Klasse „fancy“ fest. 
+Es verwendet eine Serifenschrift mit Vorrang für „Times New Roman“ und stellt den 
+Text in 20 Pixel großer, fettgedruckter und kursiver Schrift dar. Der gesamte Text 
+wird in Großbuchstaben umgewandelt und unterstrichen. Die Zeilenhöhe ist auf das 
+1,5-Fache der Schriftgröße eingestellt. Zwischen den Buchstaben wird ein Abstand 
+von 2 Pixeln und zwischen den Wörtern ein Abstand von 4 Pixeln eingefügt. Der Text
+wird zentriert ausgerichtet, vertikal mittig platziert und zu Beginn jeder Textzeile 
+um 20 Pixel eingerückt. Außerdem wird ein grauer Schlagschatten mit einem Versatz von 
+2 Pixeln in horizontaler, vertikaler und Unschärfe-Richtung hinzugefügt.
+
+*/

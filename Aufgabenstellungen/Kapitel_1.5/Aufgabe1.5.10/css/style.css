@@ -1,0 +1,16 @@
+/*
+Dieses CSS gestaltet Eingabefelder mit der Klasse „input-field“ sowie Textbereiche. 
+Beide erhalten eine Breite von 90 Prozent, vertikale Abstände, Innenabstand, eine 
+hellgraue Umrandung und abgerundete Ecken. Beim Fokus verschwindet die Standardkontur, 
+stattdessen wird die Umrandung blau und ein leichter blauer Schatten um das Element gelegt.
+Buttons bekommen eine grüne Hintergrundfarbe, weißen Text, Innenabstand, abgerundete Ecken, 
+keinen Rahmen und einen Zeiger-Cursor. Beim Überfahren mit der Maus ändert sich die 
+Hintergrundfarbe zu einem etwas dunkleren Grünton, mit einer sanften Übergangsanimation. 
+Platzhaltertext erscheint in einem mittleren Grauton. Textbereiche haben eine feste Höhe 
+von 100 Pixeln. Außerdem versucht ein Pseudoelement, nach dem Textbereich einen Hinweis 
+„Max. 500 Wörter“ anzuzeigen, der kleiner und in dunklerem Grau dargestellt wird.
+
+Das Beispiel ::after der Musterlösung klappt leider nicht. Vielleicht gibt es eine andere 
+Methode, wie es klappen könnte?
+
+*/

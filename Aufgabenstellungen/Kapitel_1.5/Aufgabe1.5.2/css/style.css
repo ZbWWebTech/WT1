@@ -1,0 +1,5 @@
+/*
+* Es wird zunächst bestimmt, dass alle Absatz-Elemente, die sich innerhalb eines Elements mit der ID „content“ befinden, blau dargestellt werden. 
+* Danach wird angegeben, dass alle Absatz-Elemente innerhalb eines beliebigen div-Elements rot eingefärbt sein sollen. 
+* Zusätzlich wird definiert, dass alle Elemente, die die Klasse „highlight“ besitzen, grün dargestellt werden. 
+*/

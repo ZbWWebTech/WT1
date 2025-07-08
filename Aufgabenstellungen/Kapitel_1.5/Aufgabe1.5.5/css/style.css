@@ -1,0 +1,9 @@
+/*
+Dieses CSS definiert Stile anhand von Attributselektoren mit verschiedenen Vergleichsarten. 
+Es wird zunächst ein Abstand oberhalb und unterhalb aller Eingabefelder gesetzt, die ein 
+type-Attribut besitzen. Dann erhalten Passwortfelder eine hellgelbe Hintergrundfarbe. Für 
+Links, deren href-Attribut mit „http“ beginnt, wird eine rote Schriftfarbe festgelegt. 
+Zusätzlich werden Links, deren href-Attribut den Teilstring „internal“ enthält, fett 
+dargestellt. Die Selektoren greifen je nach Existenz, exaktem Wert, Präfix oder 
+enthaltenem Teilstring eines Attributs.
+*/

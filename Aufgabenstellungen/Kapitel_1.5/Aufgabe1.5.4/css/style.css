@@ -1,0 +1,11 @@
+/*
+ Dieses CSS definiert das Aussehen und Verhalten von Elementen mit der Klasse „special-link“, 
+ insbesondere für Links in verschiedenen Zuständen. Standardmäßig wird die Unterstreichung 
+ entfernt und eine typische Linkfarbe verwendet. Für bereits besuchte Links wird eine dunklere 
+ Violettfarbe angezeigt. Wenn der Nutzer mit der Maus über den Link fährt, ändert sich die Farbe
+ zu Rot, und während des aktiven Klickens erscheint ein Orangeton. Bei Tastaturfokus erhält der 
+ Link einen gestrichelten schwarzen Rahmen mit etwas Abstand zum Element. Zusätzlich erscheint 
+ beim Überfahren mit der Maus ein kleiner grauer Text mit dem Hinweis „(Klicke mich!)“ rechts 
+ neben dem Link, der optisch leicht verkleinert dargestellt wird. Das Pseudoelement benötigt 
+ die relative Positionierung des Links zur korrekten Platzierung.
+*/

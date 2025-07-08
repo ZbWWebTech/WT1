@@ -1,0 +1,17 @@
+/*
+Der Universalselektor gilt für alle Elemente auf der Seite und legt eine serifenlose Schriftart fest.
+
+Der Typselektor färbt alle Absatz-Elemente grün.
+
+Der Klassenselektor gestaltet alle Elemente mit der Klasse „box“ mit hellgrauem Hintergrund, Innenabstand von 10 Pixeln und Außenabstand von 5 Pixeln.
+
+Der ID-Selektor versieht das Element mit der ID „ersteBox“ mit einem roten Rahmen von 2 Pixeln Stärke.
+
+Der Kindselektor färbt Listenelemente blau, sofern sie direkte Kinder eines ungeordneten Listen-Elements sind.
+
+Der Nachkommenselektor macht alle Absatz-Elemente kursiv, die sich irgendwo innerhalb eines Div-Elements befinden.
+
+Der benachbarte Geschwisterselektor stellt ein Absatz-Element fett dar, wenn es unmittelbar auf ein Element mit der Klasse „nachbar“ folgt.
+
+Der allgemeine Geschwisterselektor versieht alle Div-Elemente mit einem gepunkteten schwarzen Rahmen, sofern sie auf derselben Ebene wie ein „box“-Element stehen und danach kommen.
+/*

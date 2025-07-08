@@ -1,0 +1,9 @@
+/*
+
+Dieses CSS gestaltet Tabellen, indem es zunächst dafür sorgt, dass sich benachbarte Zellenrahmen 
+nicht doppeln, sondern zu einer gemeinsamen Linie verschmelzen. Tabellenzellen in Kopf- und 
+Inhaltszeilen erhalten einen einheitlich schwarzen, ein Pixel breiten Rahmen sowie einen 
+Innenabstand von fünf Pixeln. Kopfzellen werden mit einem hellgrauen Hintergrund versehen, während 
+normale Zellen in Hellblau eingefärbt sind.
+
+*/
