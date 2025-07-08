@@ -1,0 +1,19 @@
+/* Existenz */
+input[type] {
+    margin: 10px 0;
+}
+
+/* Gleichheit */
+input[type="password"] {
+    background-color: lightyellow;
+}
+
+/* Präfix */
+a[href^="http"] {
+    color: red;
+}
+
+/* Teilstring */
+a[href*="internal"] {
+    font-weight: bold;
+}

@@ -1,0 +1,37 @@
+.special-link {
+    text-decoration: none;
+    color: #0000EE; /* Standard Linkfarbe */
+    position: relative; /* Für das positionierte Pseudoelement */
+}
+
+.special-link:visited {
+    color: #551A8B; /* Besuchte Linkfarbe */
+}
+
+.special-link:hover {
+    color: #FF0000; /* Hover Farbe */
+}
+
+.special-link:active {
+    color: #FFA500; /* Aktive Linkfarbe (während des Klickens) */
+}
+
+.special-link:focus {
+    outline: 1px dashed #000;
+    outline-offset: 2px; /* Fügt Abstand um den Link für den Fokus hinzu */
+}
+
+.special-link:hover::after {
+    content: ' (Klicke mich!)';
+    font-size: 0.75em;
+    color: #888;
+}
+
+/*
+•	.special-link wendet grundlegende Stile auf alle Links mit dieser Klasse an. position: relative; ist erforderlich, um das ::after Pseudoelement relativ zum Link zu positionieren.
+•	.special-link:visited ändert die Farbe des Links, nachdem er besucht wurde.
+•	.special-link:hover ändert die Farbe, wenn der Benutzer mit der Maus über den Link fährt.
+•	.special-link:active definiert die Farbe des Links, während er angeklickt wird.
+•	.special-link:focus fügt einen Umriss hinzu, wenn der Link fokussiert ist (z.B. durch Tab-Navigation), um die Zugänglichkeit zu verbessern.
+•	.special-link:hover::after fügt zusätzlichen Text direkt nach dem Link ein, aber nur beim Hover. Dies kann nützlich sein, um Benutzer über die Aktion des Links zu informieren oder zusätzliche Informationen bereitzustellen.
+*/
