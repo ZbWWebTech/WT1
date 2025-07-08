@@ -1,0 +1,16 @@
+#content p {
+    color: blue;
+}
+
+div p {
+    color: red;
+}
+
+.highlight {
+    color: green;
+}
+
+
+/*
+Lösung: Die Farbe des Texts wird grün sein, da der Klassenselektor (.highlight) eine höhere Spezifität hat als die Typ- und ID-Selektoren zusammen.
+*/

@@ -1,0 +1,41 @@
+/* Universalselektor */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Typselektor */
+p {
+    color: green;
+}
+
+/* Klassenselektor */
+.box {
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* ID-Selektor */
+#ersteBox {
+    border: 2px solid red;
+}
+
+/* Kindselektor */
+ul > li {
+    color: blue;
+}
+
+/* Nachkommenselektor */
+div p {
+    font-style: italic;
+}
+
+/* benachbarte Geschwisterselektor */
+.nachbar + p {
+    font-weight: bold;
+}
+
+/* allgemeiner Geschwisterselektor */
+.box ~ div {
+    border: 2px dotted black;
+}
