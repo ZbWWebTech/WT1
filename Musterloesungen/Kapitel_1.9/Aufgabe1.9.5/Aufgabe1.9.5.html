@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            line-height: 2.5;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            height: calc(100vh - 5rem); /* Adjust based on header/footer height */
+        }
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .sidebar > div {
+            background-color: lightblue;
+            padding: 10px;
+        }
+        .main-content {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>Header</header>
+<div class="container">
+    <div class="sidebar">
+        <div>Link 1</div>
+        <div>Link 2</div>
+        <div>Link 3</div>
+    </div>
+    <div class="main-content">
+        Hauptinhalt hier
+    </div>
+</div>
+<footer>Footer</footer>
+
+</body>
+</html>

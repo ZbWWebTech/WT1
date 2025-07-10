@@ -1,0 +1,14 @@
+.flex-container {
+  display: flex;
+}
+
+.flex-item {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.flex-item:nth-child(1) { background-color: red; }
+.flex-item:nth-child(2) { background-color: green; }
+.flex-item:nth-child(3) { background-color: blue; }
+ 

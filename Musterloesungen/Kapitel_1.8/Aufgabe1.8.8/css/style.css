@@ -1,0 +1,16 @@
+.flex-container {
+  display: flex;
+  background-color: gray;
+}
+
+
+.flex-item {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.flex-item:nth-child(1) { background-color: red;   order: 2; }
+.flex-item:nth-child(2) { background-color: green; order: 3; }
+.flex-item:nth-child(3) { background-color: blue;  order: 1; }
+ 

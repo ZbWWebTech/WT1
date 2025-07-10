@@ -1,0 +1,7 @@
+:root {
+    --hauptfarbe: #3498db;
+}
+
+h1 {
+	color: var(--hauptfarbe); 
+}

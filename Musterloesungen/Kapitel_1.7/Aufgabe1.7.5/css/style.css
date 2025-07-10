@@ -1,0 +1,23 @@
+.float-left {
+  float: left;
+  width: 40%;
+  background-color: lightblue;
+}
+
+.float-right {
+  float: right;
+  width: 40%;
+  background-color: lightcoral;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Moderne Alternative mit display: flow-root */
+.container {
+  display: flow-root;
+  background-color: lightgrey;
+}

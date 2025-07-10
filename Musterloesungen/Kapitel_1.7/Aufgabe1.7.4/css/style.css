@@ -1,0 +1,20 @@
+.box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  color: white;
+}
+
+.behind {
+  background-color: red;
+  z-index: 1;
+}
+
+.front {
+  background-color: blue;
+  z-index: 2;
+  left: 50px;
+  top: 50px;
+}
