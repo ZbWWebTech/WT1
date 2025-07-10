@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog News</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a href="#main" class="skip-link">Zum Inhalt springen</a>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">News</a></li>
+      <li><a href="ueber.html">Über</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="impressum.html">Impressum</a></li>
+    </ul>
+  </nav>
+
+  <main id="main">
+    <section class="feedback-section">
+      <h1>Feedback</h1>
+      <p>Wir freuen uns über Ihr Feedback!<br>Felder mit * sind Pflichtfelder.</p>
+      <form class="feedback-form">
+        <label for="name">Name*:</label>
+        <input type="text" id="name" required />
+      
+        <label for="email">E-Mail*:</label>
+        <input type="email" id="email" required />
+        <small>Deine E-Mail wird nicht veröffentlicht</small>
+      
+        <label for="title">Titel:</label>
+        <input type="text" id="title" />
+      
+        <label for="message">Nachricht*:</label>
+        <textarea id="message" required></textarea>
+      
+        <div class="form-buttons">
+          <button type="submit">Absenden</button>
+          <button type="reset">Abbrechen</button>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>

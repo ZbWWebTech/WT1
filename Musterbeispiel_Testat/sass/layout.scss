@@ -1,0 +1,21 @@
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .news-article {
+    width: 100%;
+    @include responsive(tablet) {
+      width: 48%;
+    }
+    @include responsive(desktop) {
+      width: 30%;
+    }
+  
+    padding: 1em;
+    background: linear-gradient(to bottom right, #fafafa, #eee);
+    margin-bottom: 1em;
+    height: 200px;
+  }
+  

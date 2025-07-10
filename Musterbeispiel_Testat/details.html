@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Artikel-Details – Mein Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Skip‑Link für Tastatur‑Navigation -->
+  <a href="#main" class="skip-link">Zum Inhalt springen</a>
+
+  <!-- Hauptnavigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">News</a></li>
+      <li><a href="ueber.html">Über</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="impressum.html">Impressum</a></li>
+    </ul>
+  </nav>
+
+  <!-- Seiteninhalt -->
+  <main id="main">
+    <article class="details-article">
+
+      <header>
+        <h1>Barrierefreies Webdesign – Warum es alle angeht</h1>
+        <p class="meta">Veröffentlicht am <time datetime="2025-06-15">15. Juni 2025</time> von <span>Laura Weber</span></p>
+      </header>
+
+      <section class="lead">
+        <p><strong>Viele Websites schließen Menschen mit Behinderungen noch immer aus.</strong>  
+        Doch barrierefreies Design ist weder teuer noch kompliziert – wenn man es von Anfang an mitdenkt.</p>
+      </section>
+
+      <!-- Zitat (Requirement) -->
+      <blockquote cite="https://www.w3.org/TR/WCAG22/">
+        „Das Web ist von Natur aus für Menschen mit den unterschiedlichsten Fähigkeiten und Einschränkungen gedacht.“  
+        <cite>– W3C, WCAG 2.2 Einleitung</cite>
+      </blockquote>
+
+      <!-- Haupttext (formatiert) -->
+      <section>
+        <h2>1. Semantisches HTML als Grundlage</h2>
+        <p>Mit korrekt eingesetzten Überschriften‑Hierarchien, Listen und <code>&lt;figure&gt;</code>-Elementen
+        verstehen Screenreader sofort, wie dein Inhalt aufgebaut ist.</p>
+
+        <h2>2. Farbkontraste und Typografie</h2>
+        <p>Setze auf ausreichende Kontraste (<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> AA/AAA),
+        vermeide rein farbliche Hinweise (z.&nbsp;B. Fehlermeldungen) und wähle gut lesbare Schriftgrößen.</p>
+
+        <h2>3. Tastatur‑Fokus sichtbar machen</h2>
+        <p>Alle interaktiven Elemente müssen per <kbd>Tab</kbd> erreichbar sein. Ein deutlicher
+        <em>Focus Indicator</em> hilft Nutzer:innen, den aktuellen Fokuspunkt zu erkennen.</p>
+
+        <h2>4. Bonus: Live‑Regionen &amp; ARIA</h2>
+        <p>Wenn JavaScript im Spiel ist, können <abbr title="Accessible Rich Internet Applications">ARIA</abbr>-Attribute
+        Screenreader über dynamische Änderungen informieren. In diesem Projekt verzichten wir bewusst auf JS,
+        doch das Prinzip bleibt wichtig.</p>
+      </section>
+
+      <!-- Rücksprung zur News-Seite -->
+      <p><a href="index.html" class="btn">← Zurück zu allen Artikeln</a></p>
+
+    </article>
+  </main>
+
+</body>
+</html>
