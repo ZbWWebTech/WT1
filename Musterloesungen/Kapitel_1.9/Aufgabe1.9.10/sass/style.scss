@@ -1,0 +1,15 @@
+.box {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  padding: 50px;
+}
+
+
+.special-box {
+  @extend .box;
+  border: 2px solid #2ecc71;
+  transform: rotate(45deg);
+}
+

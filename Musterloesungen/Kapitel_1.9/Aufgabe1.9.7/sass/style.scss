@@ -1,0 +1,11 @@
+@mixin flex-container($direction) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.container {
+  @include flex-container(column);
+}

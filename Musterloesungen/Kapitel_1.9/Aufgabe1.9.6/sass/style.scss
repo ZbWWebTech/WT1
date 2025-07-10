@@ -1,0 +1,6 @@
+$main-color: #3498db;
+
+body {
+  background-color: $main-color;
+  color: darken($main-color, 10%);
+}
