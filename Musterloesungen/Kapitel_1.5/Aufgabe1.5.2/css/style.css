@@ -12,5 +12,5 @@ div p {
 
 
 /*
-Lösung: Die Farbe des Texts wird blau sein, da der Is-Selektor (#content) eine höhere Spezifität hat als die Typ- oder Klassen-Selektore..
+Lösung: Die Farbe des Texts wird blau sein, da der ID-Selektor (#content) eine höhere Spezifität hat als die Typ- oder Klassen-Selektore..
 */
